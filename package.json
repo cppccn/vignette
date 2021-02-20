@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yvan-sraka/vignette/issues"
   },
-  "homepage": "https://github.com/yvan-sraka/vignette#readme"
+  "homepage": "https://github.com/yvan-sraka/vignette#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
