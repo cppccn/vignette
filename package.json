@@ -1,0 +1,19 @@
+{
+  "name": "vignette",
+  "version": "1.0.0",
+  "description": "Let's have a web preview of a given URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yvan-sraka/vignette.git"
+  },
+  "author": "Nicolas Hovart <hovart.nicolas@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/yvan-sraka/vignette/issues"
+  },
+  "homepage": "https://github.com/yvan-sraka/vignette#readme"
+}
