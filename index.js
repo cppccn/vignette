@@ -2,6 +2,9 @@ const fetch = require('node-fetch'),
       express = require('express'),
       app = express()
 
+// fontion parse : 
+// attendus : doit renvoyer un json contenant les éléments title et image
+// comment tester : vérifier que c'est du json, que title est du texte, ..
 const parse = (body) => {
   let match = body.match(/<title>([^<]*)<\/title>/) // regular expression to parse contents of the <title> tag
   if (!match || typeof match[1] !== 'string')
@@ -25,3 +28,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(80)
+
+// query /tblOT7RAdbNGccvtG?fields%5B%5D=Titre+de+la+formation&fields%5B%5D=Organisme&maxRecords=100&sort%5B0%5D%5Bfield%5D=Titre+de+la+formation
